@@ -272,9 +272,73 @@ textarea {
 
 .c-biz {
   background: #434853;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+.c-biz__bottom {
+  padding: 15px 30px;
 }
 
 .c-biz__image {
   width: 100%;
+}
+
+.c-biz__category {
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: bold;
+}
+
+.c-biz__name {
+  font-family: 'Saira Stencil One', cursive;
+  font-size: 1.8em;
+  margin: 0;
+}
+
+.c-biz__type {
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.c-biz__hours {
+  margin: 0;
+  color: #43AA8B;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.c-biz__details, .c-biz__orders, .c-biz__menu, .c-biz__actions {
+  border-bottom: 0.2px solid #F2F7F2;
+  padding-bottom: 5px;
+}
+
+.c-biz__orders-text {
+  margin: 10px 0;
+}
+
+.c-biz__orders-list {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  list-style: none;
+  font-size: .7em;
+}
+
+.c-biz__order {
+  margin: 0 3px;
+}
+
+.c-biz__order span {
+  background: #43AA8B;
+  padding: 3px;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */

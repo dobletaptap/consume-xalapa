@@ -1,6 +1,66 @@
 .c-biz {
     background: $element;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 16px;
+
+    &__bottom {
+        padding: 15px 30px;
+    }
     &__image {
         width: 100%;
+    }
+
+    &__category {
+        text-transform: uppercase;
+        margin: 0;
+        font-weight: bold;
+    }
+
+    &__name {
+        font-family: 'Saira Stencil One', cursive;
+        font-size: 1.8em;
+        margin: 0;
+    }
+
+    &__type {
+        margin: 0;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+    &__hours {
+        margin: 0;
+        color: $primary;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    &__details, &__orders, &__menu, &__actions {
+        border-bottom: .2px solid $text;
+        padding-bottom: 5px;
+    }
+
+    &__orders-text {
+        margin: 10px 0;
+    }
+
+    &__orders-list {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: flex-start;
+        list-style: none;
+        font-size: .7em;
+    }
+    
+    &__order {
+        margin: 0 3px;
+        span {
+            background: $primary;
+            padding: 3px;
+            border-radius: 5px;
+        }
+
     }
 }
