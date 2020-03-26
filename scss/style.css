@@ -199,7 +199,7 @@ textarea {
 
 .u-wrapper {
   max-width: 1440px;
-  padding: 0 10px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -260,5 +260,21 @@ textarea {
   font-weight: bold;
   text-align: center;
   max-width: 80%;
+}
+
+.c-directory {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.c-biz {
+  background: #434853;
+}
+
+.c-biz__image {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
