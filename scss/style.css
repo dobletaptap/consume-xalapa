@@ -236,4 +236,29 @@ textarea {
 .c-header__link:hover {
   color: #43AA8B;
 }
+
+.c-hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-hero__title {
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.c-hero__description {
+  font-weight: bold;
+  text-align: center;
+  max-width: 80%;
+}
 /*# sourceMappingURL=style.css.map */
