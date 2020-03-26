@@ -179,4 +179,10 @@ textarea {
   color: #000;
   padding: 0.2em 0;
 }
+
+.u-wrapper {
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
