@@ -5,7 +5,7 @@
     font-size: 16px;
 
     &__bottom {
-        padding: 15px 30px;
+        padding: 15px 20px;
     }
     &__image {
         width: 100%;
@@ -13,20 +13,23 @@
 
     &__category {
         text-transform: uppercase;
-        margin: 0;
+        margin: 0 5px 0 0;
         font-weight: bold;
+        display: inline;
     }
 
     &__name {
         font-family: 'Saira Stencil One', cursive;
-        font-size: 1.8em;
+        font-size: 2em;
         margin: 0;
+        letter-spacing: 2px;
     }
 
     &__type {
         margin: 0;
         font-weight: 300;
         text-transform: uppercase;
+        letter-spacing: 1px;
     }
 
     &__hours {
@@ -34,20 +37,18 @@
         color: $primary;
         font-weight: bold;
         letter-spacing: 1px;
+        display: inline;
+        text-transform: uppercase;
     }
 
-    &__details, &__orders, &__menu, &__actions {
-        border-bottom: .2px solid $text;
-        padding-bottom: 5px;
-    }
-
-    &__orders-text {
-        margin: 10px 0;
+    &__details, &__orders, &__actions {
+        border-bottom: 1px solid rgba($text, .5);
+        padding: 10px 0;
     }
 
     &__orders-list {
         padding: 0;
-        margin: 0;
+        margin: 5px 0;
         display: flex;
         justify-content: flex-start;
         list-style: none;
@@ -57,10 +58,48 @@
     &__order {
         margin: 0 3px;
         span {
-            background: $primary;
+            background: darken($primary, 15%);
             padding: 3px;
             border-radius: 5px;
+            display: block;
         }
 
+    }
+
+    &__menu-title {
+        margin: 10px 0;
+        font-size: 1.3em;
+        letter-spacing: 1px;
+    }
+
+    &__menu-list {
+        margin: 0;
+    }
+
+    &__actions {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        // gap: 20px;
+    }
+
+    &__cta {
+        text-transform: uppercase;
+        background: $primary;
+        padding: 12px 24px;
+        border-radius: 5px;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &--hollow {
+            background: transparent;
+            border: 2px solid $primary;
+            color: $primary
+        }
+    }
+
+    &__link {
+        display: block;
     }
 }
