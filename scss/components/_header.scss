@@ -1,0 +1,27 @@
+.c-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        color: $accent;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+    }
+
+    &__list-item {
+        margin-left: 20px;
+        font-weight: bold;
+    }
+
+    &__link {
+        &:hover {
+            color: $primary;
+        }
+    }
+}

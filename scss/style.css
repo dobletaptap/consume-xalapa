@@ -15,6 +15,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Squada One', cursive;
 }
 
+a {
+  text-decoration: none;
+  color: #F2F7F2;
+}
+
 /**
  * 1. Correct font size not being inherited in all browsers.
  * 2. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
@@ -196,5 +201,39 @@ textarea {
   max-width: 1440px;
   padding: 0 10px;
   margin: 0 auto;
+}
+
+.c-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-header__logo {
+  color: #C05746;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.c-header__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c-header__list-item {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.c-header__link:hover {
+  color: #43AA8B;
 }
 /*# sourceMappingURL=style.css.map */
