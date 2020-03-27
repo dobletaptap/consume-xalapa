@@ -204,6 +204,12 @@ textarea {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 540px) {
+  .u-wrapper {
+    padding: 0 10px;
+  }
+}
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot?rmry0m");
