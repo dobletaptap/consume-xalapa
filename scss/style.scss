@@ -26,6 +26,31 @@ a {
     color: $text;
 }
 
+// * SECTION MEDIA QUERIES
+@mixin ipad {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin iphone-8 {
+    @media screen and (max-width: 540px) {
+        @content;
+    }
+}
+
+@mixin iphone-x {
+    @media screen and (max-width: 375px) {
+        @content;
+    }
+}
+
+@mixin iphone-5 {
+    @media screen and (max-width: 320px) {
+        @content;
+    }
+}
+
 // * SECTION Utils
 @import './utils/reset';
 @import './utils/wrapper';
