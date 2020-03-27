@@ -272,6 +272,17 @@ textarea {
   color: #43AA8B;
 }
 
+@media screen and (max-width: 768px) {
+  .c-header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .c-header__nav {
+    display: none;
+  }
+}
+
 .c-hero {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -304,6 +315,13 @@ textarea {
       grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 30px 0;
+}
+
+@media screen and (max-width: 540px) {
+  .c-directory {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
 
 .c-biz {

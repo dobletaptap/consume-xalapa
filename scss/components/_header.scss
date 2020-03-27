@@ -24,4 +24,11 @@
             color: $primary;
         }
     }
+
+    @include ipad {
+        justify-content: center;
+        &__nav {
+            display: none;
+        }
+    }
 }
