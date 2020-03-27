@@ -60,8 +60,10 @@
     
     &__order {
         margin: 0 3px;
+        font-weight: bold;
         span {
-            background: darken($primary, 15%);
+            background: $primary;
+            color: $body;
             padding: 3px;
             border-radius: 5px;
             display: block;

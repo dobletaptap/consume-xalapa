@@ -376,10 +376,12 @@ textarea {
 
 .c-biz__order {
   margin: 0 3px;
+  font-weight: bold;
 }
 
 .c-biz__order span {
-  background: #2d735e;
+  background: #43AA8B;
+  color: #2F323A;
   padding: 3px;
   border-radius: 5px;
   display: block;
