@@ -6,5 +6,6 @@
     
     @include iphone-8 {
         grid-template-columns: 1fr;
+        gap: 30px;
     } 
 }

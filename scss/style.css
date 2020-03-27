@@ -284,6 +284,9 @@ textarea {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .c-header__logo {
+    font-size: 2.5em;
+  }
   .c-header__nav {
     display: none;
   }
@@ -327,6 +330,7 @@ textarea {
   .c-directory {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    gap: 30px;
   }
 }
 
