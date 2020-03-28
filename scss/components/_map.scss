@@ -3,4 +3,11 @@
     &__title {
         font-size: 2.5em;
     }
+
+    &__container {
+        border-radius: 5px;
+        overflow: hidden;
+        max-width: 80%;
+        margin: 0 auto;
+    }
 }
