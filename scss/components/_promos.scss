@@ -1,0 +1,49 @@
+.c-promo {
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+
+    &__image {
+        width: 40%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    &__paper{
+        width: 60%;
+        background: $text;
+        display: flex;
+        align-items: center;
+    }
+
+    &__text-container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    &__title {
+        color: $primary;
+        font-size: 4em;
+        margin: 0;
+    }
+
+    &__author {
+        color: $accent;
+        font-size: 3em;
+        margin: 0;
+    }
+
+    &__cta-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__cta {
+        background: $body;
+        font-size: 2em;
+        font-weight: bold;
+        padding: 12px 24px;
+        border-radius: 5px;
+    }
+}
