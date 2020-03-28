@@ -338,6 +338,12 @@ textarea {
   text-align: center;
 }
 
+@media screen and (max-width: 540px) {
+  .c-section {
+    font-size: 12px;
+  }
+}
+
 .c-directory {
   display: -ms-grid;
   display: grid;
