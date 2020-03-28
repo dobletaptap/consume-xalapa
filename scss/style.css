@@ -313,6 +313,16 @@ textarea {
   max-width: 80%;
 }
 
+.c-section__title {
+  font-size: 3em;
+  text-align: center;
+}
+
+.c-section__description {
+  font-size: 1.2em;
+  text-align: center;
+}
+
 .c-directory {
   display: -ms-grid;
   display: grid;
