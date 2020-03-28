@@ -313,6 +313,15 @@ textarea {
   max-width: 80%;
 }
 
+@media screen and (max-width: 540px) {
+  .c-hero {
+    font-size: 12px;
+  }
+  .c-hero__description {
+    font-size: 1.2em;
+  }
+}
+
 .c-section__title {
   font-size: 3em;
   text-align: center;
