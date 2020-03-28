@@ -288,6 +288,12 @@ textarea {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .c-header {
+    font-size: 12px;
+  }
+}
+
 .c-hero {
   display: -webkit-box;
   display: -ms-flexbox;
