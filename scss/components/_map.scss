@@ -10,4 +10,10 @@
         max-width: 80%;
         margin: 0 auto;
     }
+
+    @include iphone-8 {
+        &__container {
+            max-width: 100%;
+        }
+    }
 }

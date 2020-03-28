@@ -536,6 +536,12 @@ textarea {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 540px) {
+  .c-map__container {
+    max-width: 100%;
+  }
+}
+
 .c-promo {
   display: -webkit-box;
   display: -ms-flexbox;
