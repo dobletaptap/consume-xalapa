@@ -750,6 +750,114 @@ textarea {
   padding: 0;
 }
 
+.c-form {
+  padding: 25px 50px;
+  background: #434853;
+  border-radius: 5px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.c-form__title {
+  font-size: 3.5em;
+}
+
+.c-form__description {
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+.c-form__label {
+  font-size: 1.2em;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.c-form__label--small {
+  margin: 5px 0;
+}
+
+.c-form__input {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  border: none;
+  background: #fcfcfc;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.c-form__input-divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.c-form__input-division {
+  width: 49%;
+}
+
+.c-form__radio {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.c-form__button {
+  -webkit-box-sizing: initial;
+          box-sizing: initial;
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #F2F7F2;
+  background: #43AA8B;
+  border: none;
+  letter-spacing: 3px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-size: 2em;
+  -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+  outline: none;
+  border-radius: 5px;
+}
+
+.c-form__button:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.c-form__button:active {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+
+@media screen and (max-width: 768px) {
+  .c-form__button {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .c-form {
+    font-size: 14px;
+    padding: 10px;
+    max-width: 100%;
+  }
+  .c-form__button-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .c-footer {
   text-align: center;
   font-weight: 300;
