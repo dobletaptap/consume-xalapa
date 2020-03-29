@@ -331,8 +331,12 @@ textarea {
   .c-hero {
     font-size: 12px;
   }
+  .c-hero__title {
+    margin: 0;
+  }
   .c-hero__description {
     font-size: 1.2em;
+    max-width: 100%;
   }
 }
 

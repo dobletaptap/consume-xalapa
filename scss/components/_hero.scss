@@ -19,8 +19,13 @@
     @include iphone-8 {
         font-size: 12px;
 
+        &__title {
+            margin: 0;
+        }
+
         &__description {
             font-size: 1.2em;
+            max-width: 100%;
         }
     }
 }
