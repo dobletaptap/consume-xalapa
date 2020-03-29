@@ -200,6 +200,10 @@ textarea {
   margin: 0 auto;
 }
 
+.u-wrapper--mini {
+  max-width: 1000px;
+}
+
 @media screen and (max-width: 540px) {
   .u-wrapper {
     padding: 0 10px;
@@ -618,16 +622,36 @@ textarea {
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 50px;
+}
+
+.c-member {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .c-member__image {
-  width: 100%;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.c-member__list {
+  list-style: none;
+  padding: 0;
 }
 
 .c-footer {
