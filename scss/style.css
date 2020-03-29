@@ -441,6 +441,15 @@ textarea {
   font-size: 16px;
 }
 
+.c-biz__container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 30px 0;
+}
+
 .c-biz__bottom {
   padding: 15px 20px;
 }
@@ -571,6 +580,14 @@ textarea {
 
 .c-biz__link i {
   margin-right: 5px;
+}
+
+@media screen and (max-width: 540px) {
+  .c-biz__container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 30px;
+  }
 }
 
 .c-map__title {
