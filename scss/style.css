@@ -617,12 +617,23 @@ textarea {
   }
 }
 
+.c-team {
+  margin-top: 25px;
+}
+
 .c-team__container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   gap: 50px;
+}
+
+@media screen and (max-width: 540px) {
+  .c-team__container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
 
 .c-member {
