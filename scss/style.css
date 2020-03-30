@@ -216,8 +216,8 @@ textarea {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?rmry0m");
-  src: url("../fonts/icomoon.eot?rmry0m#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?rmry0m") format("truetype"), url("../fonts/icomoon.woff?rmry0m") format("woff"), url("../fonts/icomoon.svg?rmry0m#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?5y0blq");
+  src: url("../fonts/icomoon.eot?5y0blq#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?5y0blq") format("truetype"), url("../fonts/icomoon.woff?5y0blq") format("woff"), url("../fonts/icomoon.svg?5y0blq#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -240,12 +240,40 @@ textarea {
   content: "\e901";
 }
 
+.icon-home:before {
+  content: "\e902";
+}
+
+.icon-store:before {
+  content: "\e923";
+}
+
+.icon-promo:before {
+  content: "\e936";
+}
+
+.icon-ticket:before {
+  content: "\e939";
+}
+
 .icon-phone:before {
   content: "\e942";
 }
 
 .icon-location:before {
   content: "\e947";
+}
+
+.icon-map:before {
+  content: "\e94c";
+}
+
+.icon-contact:before {
+  content: "\e970";
+}
+
+.icon-us:before {
+  content: "\e972";
 }
 
 .c-header {
