@@ -61,6 +61,18 @@
         &__list-item {
             margin: 10px 0;
             font-size: 1.6em;
+            opacity: 0;
         }
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
     }
 }
