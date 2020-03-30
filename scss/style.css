@@ -467,7 +467,7 @@ textarea {
   border: 1px solid #fff;
   left: 50%;
   margin-left: -13px;
-  z-index: 9999;
+  z-index: 9990;
 }
 
 .c-mouse span {
