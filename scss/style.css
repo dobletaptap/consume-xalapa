@@ -303,6 +303,7 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 0;
 }
 
 .c-header__list-item {
@@ -323,14 +324,37 @@ textarea {
   .c-header__logo {
     font-size: 2.5em;
   }
-  .c-header__nav {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 540px) {
   .c-header {
     font-size: 12px;
+  }
+  .c-header__nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    background: #43AA8B;
+    z-index: 9998;
+  }
+  .c-header__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+  }
+  .c-header__list-item {
+    margin: 10px 0;
+    font-size: 1.6em;
   }
 }
 
