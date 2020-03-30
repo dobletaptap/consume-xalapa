@@ -334,10 +334,15 @@ textarea {
     position: fixed;
     top: 0;
     bottom: 0;
-    right: 0;
+    right: -50vw;
     width: 50vw;
     background: #43AA8B;
     z-index: 9998;
+    -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+    transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+  }
+  .c-header__nav--active {
+    right: 0;
   }
   .c-header__list {
     -webkit-box-orient: vertical;
