@@ -46,6 +46,7 @@
             background: $primary;
             z-index: 9998;
             transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.11), 0 1px 3px rgba(0,0,0,.08);
             &--active {
                 right: 0;
             }

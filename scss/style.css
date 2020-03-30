@@ -340,6 +340,8 @@ textarea {
     z-index: 9998;
     -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
     transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   }
   .c-header__nav--active {
     right: 0;
@@ -407,6 +409,8 @@ textarea {
   right: 10px;
   display: none;
   z-index: 9999;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 @media screen and (max-width: 540px) {

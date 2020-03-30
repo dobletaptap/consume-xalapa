@@ -11,6 +11,7 @@
     right: 10px;
     display: none;
     z-index: 9999;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.11), 0 1px 3px rgba(0,0,0,.08);
 
     @include iphone-8 {
         display: flex;
