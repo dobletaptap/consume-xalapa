@@ -886,6 +886,28 @@ textarea {
   }
 }
 
+.c-mobile-menu {
+  background: #43AA8B;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.c-mobile-menu__list {
+  margin: 10px 0;
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 24px;
+}
+
 .c-footer {
   text-align: center;
   font-weight: 300;

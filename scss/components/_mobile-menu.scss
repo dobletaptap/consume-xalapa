@@ -1,0 +1,17 @@
+.c-mobile-menu {
+    background: $primary;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px 5px 0 0;
+
+    &__list {
+        margin: 10px 0;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 24px;
+    }
+}
