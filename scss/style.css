@@ -216,8 +216,8 @@ textarea {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?5y0blq");
-  src: url("../fonts/icomoon.eot?5y0blq#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?5y0blq") format("truetype"), url("../fonts/icomoon.woff?5y0blq") format("woff"), url("../fonts/icomoon.svg?5y0blq#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?k4j66a");
+  src: url("../fonts/icomoon.eot?k4j66a#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?k4j66a") format("truetype"), url("../fonts/icomoon.woff?k4j66a") format("woff"), url("../fonts/icomoon.svg?k4j66a#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -276,6 +276,10 @@ textarea {
   content: "\e972";
 }
 
+.icon-menu:before {
+  content: "\e9bd";
+}
+
 .c-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -327,6 +331,33 @@ textarea {
 @media screen and (max-width: 540px) {
   .c-header {
     font-size: 12px;
+  }
+}
+
+.c-burger-menu {
+  background: #43AA8B;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.5em;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: none;
+  z-index: 9999;
+}
+
+@media screen and (max-width: 540px) {
+  .c-burger-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -893,6 +924,8 @@ textarea {
   left: 0;
   right: 0;
   border-radius: 5px 5px 0 0;
+  z-index: 9999;
+  display: none;
 }
 
 .c-mobile-menu__list {
@@ -908,9 +941,15 @@ textarea {
   font-size: 24px;
 }
 
+@media screen and (max-width: 540px) {
+  .c-mobile-menu {
+    display: block;
+  }
+}
+
 .c-footer {
   text-align: center;
-  font-weight: 300;
+  padding-bottom: 50px;
 }
 
 .c-footer__link:hover {

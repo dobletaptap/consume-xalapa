@@ -5,6 +5,8 @@
     left: 0;
     right: 0;
     border-radius: 5px 5px 0 0;
+    z-index: 9999;
+    display: none;
 
     &__list {
         margin: 10px 0;
@@ -13,5 +15,8 @@
         display: flex;
         justify-content: space-evenly;
         font-size: 24px;
+    }
+    @include iphone-8 {
+        display: block;
     }
 }
