@@ -15,12 +15,12 @@
 }
 
 body {
+  -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.6s;
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.6s;
   background: var(--body);
   color: var(--text);
   margin: 0;
   padding: 0;
-  -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.6s;
-  transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.6s;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -478,7 +478,7 @@ textarea {
 }
 
 .c-hero__title {
-  font-size: 3.5em;
+  font-size: 3em;
   text-align: center;
   margin-bottom: 16px;
 }
@@ -497,7 +497,7 @@ textarea {
     margin: 0;
   }
   .c-hero__description {
-    font-size: 1.2em;
+    font-size: 1.4em;
     max-width: 100%;
   }
 }
@@ -564,12 +564,12 @@ textarea {
 }
 
 .c-section__title {
-  font-size: 3em;
+  font-size: 2.5em;
   text-align: center;
 }
 
 .c-section__description {
-  font-size: 1.2em;
+  font-size: 1.3em;
   text-align: center;
 }
 
@@ -634,7 +634,7 @@ textarea {
 }
 
 .c-biz__name {
-  font-size: 2em;
+  font-size: 1.8em;
   margin: 0;
   letter-spacing: 2px;
 }

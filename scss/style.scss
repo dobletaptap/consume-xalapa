@@ -26,11 +26,11 @@ $title: 'Montserrat', sans-serif;
 }
 
 body {
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .6s;
     background: var(--body);
     color: var(--text);
     margin: 0;
     padding: 0;
-    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .6s;
 }
 
 h1, h2, h3, h4, h5, h6 {
