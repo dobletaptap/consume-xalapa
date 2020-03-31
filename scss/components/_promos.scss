@@ -12,7 +12,7 @@
 
     &__paper{
         width: 60%;
-        background: $text;
+        background: var(--text);
         display: flex;
         align-items: center;
     }
@@ -23,13 +23,13 @@
     }
 
     &__title {
-        color: $primary;
+        color: var(--primary);
         font-size: 4em;
         margin: 0;
     }
 
     &__author {
-        color: $accent;
+        color: var(--accent);
         font-size: 3em;
         margin: 0;
     }
@@ -40,7 +40,7 @@
     }
 
     &__cta {
-        background: $body;
+        background: var(--body);
         font-size: 2em;
         font-weight: bold;
         padding: 12px 24px;

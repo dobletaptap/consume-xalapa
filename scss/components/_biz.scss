@@ -1,5 +1,5 @@
 .c-biz {
-    background: $element;
+    background: var(--element);
     border-radius: 10px;
     overflow: hidden;
     font-size: 16px;
@@ -42,7 +42,7 @@
 
     &__hours {
         margin: 0;
-        color: $primary;
+        color: var(--primary);
         font-weight: bold;
         letter-spacing: 1px;
         display: inline;
@@ -50,7 +50,7 @@
     }
 
     &__details, &__orders, &__actions {
-        border-bottom: 1px solid rgba($text, .5);
+        border-bottom: 1px solid var(--text);
         padding: 10px 0;
     }
 
@@ -67,8 +67,8 @@
         margin: 0 3px;
         font-weight: bold;
         span {
-            background: $primary;
-            color: $body;
+            background: var(--primary);
+            color: var(--body);
             padding: 3px;
             border-radius: 5px;
             display: block;
@@ -95,7 +95,7 @@
 
     &__cta {
         text-transform: uppercase;
-        background: $primary;
+        background: var(--primary);
         padding: 12px 24px;
         border-radius: 5px;
         font-size: 1.5em;
@@ -104,8 +104,8 @@
         align-items: center;
         &--hollow {
             background: transparent;
-            border: 2px solid $primary;
-            color: $primary
+            border: 2px solid var(--primary);
+            color: var(--primary)
         }
     }
 
@@ -114,7 +114,7 @@
         align-items: center;
         margin: 5px 0;
         &:hover {
-            color: $primary;
+            color: var(--primary);
         }
         i {
             margin-right: 5px;

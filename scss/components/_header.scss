@@ -4,7 +4,7 @@
     align-items: center;
 
     &__logo {
-        color: $accent;
+        color: var(--accent);
         font-size: 2em;
         font-weight: bold;
     }
@@ -22,7 +22,7 @@
 
     &__link {
         &:hover {
-            color: $primary;
+            color: var(--primary);
         }
     }
 
@@ -43,7 +43,7 @@
             bottom: 0;
             right: -50vw;
             width: 50vw;
-            background: $primary;
+            background: var(--primary);
             z-index: 9998;
             transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.11), 0 1px 3px rgba(0,0,0,.08);

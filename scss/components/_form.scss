@@ -1,6 +1,6 @@
 .c-form {
     padding: 25px 50px;
-    background: $element;
+    background: var(--element);
     border-radius: 5px;
     max-width: 70%;
     margin: 0 auto;
@@ -55,8 +55,8 @@
         box-sizing: initial;
         margin-top: 20px;
         font-family: $font;
-        color: $text;
-        background: $primary;
+        color: var(--text);
+        background: var(--primary);
         border: none;
         letter-spacing: 3px;
         padding: 10px 30px;
@@ -72,7 +72,7 @@
 
         &:active {
             transform: translateY(5px);
-            // background: lighten($text-color-dark, 30%);
+            // background: lighten(var(--text)-color-dark, 30%);
         }
     }
 

@@ -1,9 +1,12 @@
+:root {
+    --body: #2F323A;
+    --element:#434853;
+    --primary: #43AA8B;
+    --accent: #C05746;
+    --text:#F2F7F2;
+}
+
 // * SECTION Colors
-$body: #2F323A;
-$element: #434853;
-$primary: #43AA8B;
-$accent: #C05746;
-$text: #F2F7F2;
 $font: 'Open Sans', sans-serif;
 $title: 'Squada One', cursive;
 
@@ -13,8 +16,8 @@ $title: 'Squada One', cursive;
 }
 
 body {
-    background: $body;
-    color: $text;
+    background: var(--body);
+    color: var(--text);
     margin: 0;
     padding: 0;
 }
@@ -25,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     text-decoration: none;
-    color: $text;
+    color: var(--text);
 }
 
 // * SECTION MEDIA QUERIES

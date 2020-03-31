@@ -1,3 +1,11 @@
+:root {
+  --body: #2F323A;
+  --element:#434853;
+  --primary: #43AA8B;
+  --accent: #C05746;
+  --text:#F2F7F2;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -5,8 +13,8 @@
 }
 
 body {
-  background: #2F323A;
-  color: #F2F7F2;
+  background: var(--body);
+  color: var(--text);
   margin: 0;
   padding: 0;
 }
@@ -17,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-  color: #F2F7F2;
+  color: var(--text);
 }
 
 /**
@@ -293,7 +301,7 @@ textarea {
 }
 
 .c-header__logo {
-  color: #C05746;
+  color: var(--accent);
   font-size: 2em;
   font-weight: bold;
 }
@@ -312,7 +320,7 @@ textarea {
 }
 
 .c-header__link:hover {
-  color: #43AA8B;
+  color: var(--primary);
 }
 
 @media screen and (max-width: 768px) {
@@ -336,7 +344,7 @@ textarea {
     bottom: 0;
     right: -50vw;
     width: 50vw;
-    background: #43AA8B;
+    background: var(--primary);
     z-index: 9998;
     -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
     transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
@@ -394,7 +402,7 @@ textarea {
 }
 
 .c-burger-menu {
-  background: #43AA8B;
+  background: var(--primary);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -555,7 +563,7 @@ textarea {
 }
 
 .c-biz {
-  background: #434853;
+  background: var(--element);
   border-radius: 10px;
   overflow: hidden;
   font-size: 16px;
@@ -604,7 +612,7 @@ textarea {
 
 .c-biz__hours {
   margin: 0;
-  color: #43AA8B;
+  color: var(--primary);
   font-weight: bold;
   letter-spacing: 1px;
   display: inline;
@@ -612,7 +620,7 @@ textarea {
 }
 
 .c-biz__details, .c-biz__orders, .c-biz__actions {
-  border-bottom: 1px solid rgba(242, 247, 242, 0.5);
+  border-bottom: 1px solid var(--text);
   padding: 10px 0;
 }
 
@@ -635,8 +643,8 @@ textarea {
 }
 
 .c-biz__order span {
-  background: #43AA8B;
-  color: #2F323A;
+  background: var(--primary);
+  color: var(--body);
   padding: 3px;
   border-radius: 5px;
   display: block;
@@ -662,7 +670,7 @@ textarea {
 
 .c-biz__cta {
   text-transform: uppercase;
-  background: #43AA8B;
+  background: var(--primary);
   padding: 12px 24px;
   border-radius: 5px;
   font-size: 1.5em;
@@ -679,8 +687,8 @@ textarea {
 
 .c-biz__cta--hollow {
   background: transparent;
-  border: 2px solid #43AA8B;
-  color: #43AA8B;
+  border: 2px solid var(--primary);
+  color: var(--primary);
 }
 
 .c-biz__link {
@@ -694,7 +702,7 @@ textarea {
 }
 
 .c-biz__link:hover {
-  color: #43AA8B;
+  color: var(--primary);
 }
 
 .c-biz__link i {
@@ -745,7 +753,7 @@ textarea {
 
 .c-promo__paper {
   width: 60%;
-  background: #F2F7F2;
+  background: var(--text);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -760,13 +768,13 @@ textarea {
 }
 
 .c-promo__title {
-  color: #43AA8B;
+  color: var(--primary);
   font-size: 4em;
   margin: 0;
 }
 
 .c-promo__author {
-  color: #C05746;
+  color: var(--accent);
   font-size: 3em;
   margin: 0;
 }
@@ -781,7 +789,7 @@ textarea {
 }
 
 .c-promo__cta {
-  background: #2F323A;
+  background: var(--body);
   font-size: 2em;
   font-weight: bold;
   padding: 12px 24px;
@@ -872,7 +880,7 @@ textarea {
 
 .c-form {
   padding: 25px 50px;
-  background: #434853;
+  background: var(--element);
   border-radius: 5px;
   max-width: 70%;
   margin: 0 auto;
@@ -933,8 +941,8 @@ textarea {
           box-sizing: initial;
   margin-top: 20px;
   font-family: "Open Sans", sans-serif;
-  color: #F2F7F2;
-  background: #43AA8B;
+  color: var(--text);
+  background: var(--primary);
   border: none;
   letter-spacing: 3px;
   padding: 10px 30px;
@@ -979,7 +987,7 @@ textarea {
 }
 
 .c-mobile-menu {
-  background: #43AA8B;
+  background: var(--primary);
   position: fixed;
   bottom: 0;
   left: 0;
