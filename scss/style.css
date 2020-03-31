@@ -428,11 +428,17 @@ textarea {
   font-family: var(--logo-font);
   font-size: 1.6em;
   font-weight: bold;
+  text-align: center;
+  margin: 0;
 }
 
 .c-logo__highlight {
   font-family: var(--logo-font);
   color: var(--primary);
+}
+
+.c-logo--big {
+  font-size: 2.5em;
 }
 
 .c-burger-menu {
@@ -566,6 +572,10 @@ textarea {
 .c-section__title {
   font-size: 2.5em;
   text-align: center;
+}
+
+.c-section__title--logo-below {
+  margin-bottom: 0;
 }
 
 .c-section__description {
