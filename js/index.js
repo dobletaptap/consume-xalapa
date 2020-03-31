@@ -4,6 +4,28 @@ const links = document.querySelectorAll('.c-header__list-item')
 const lightButton = document.querySelector('#light-button')
 let theme = 'dark'
 
+const toggleTheme= mediaQuery => {
+    if (mediaQuery.matches) { // If media query matches
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.toggle('c-header__nav--active')
+                links.forEach((link, index) => {
+                    if (link.style.animation) {
+                        link.style.animation = ''
+                    } else {
+                        link.style.animation = `fade .5s ease forwards ${index / 7 + .3}s`
+                    }
+                })
+            })
+        })
+    } else {
+    }
+  }
+  
+  const mediaQuery = window.matchMedia("screen and (max-width: 540px)")
+
+  mediaQuery.addListener(toggleTheme) // Attach listener function on state changes
+
 const menuToggle = () => {
     menu.classList.toggle('c-header__nav--active')
 }
@@ -19,18 +41,7 @@ burgerButton.addEventListener('click', () => {
     })
 })
 
-links.forEach(link => {
-    link.addEventListener('click', () => {
-        menu.classList.toggle('c-header__nav--active')
-        links.forEach((link, index) => {
-            if (link.style.animation) {
-                link.style.animation = ''
-            } else {
-                link.style.animation = `fade .5s ease forwards ${index / 7 + .3}s`
-            }
-        })
-    })
-})
+
 
 lightButton.addEventListener('click', () => {
     // if theme is already dark, change to light colors
