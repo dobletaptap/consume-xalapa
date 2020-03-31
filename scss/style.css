@@ -429,7 +429,6 @@ textarea {
   font-size: 1.6em;
   font-weight: bold;
   text-align: center;
-  margin: 0;
 }
 
 .c-logo__highlight {
@@ -438,6 +437,7 @@ textarea {
 }
 
 .c-logo--big {
+  margin: 0;
   font-size: 2.5em;
 }
 
