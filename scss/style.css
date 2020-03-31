@@ -479,7 +479,7 @@ textarea {
   width: 28px;
   height: 48px;
   border-radius: 11px 11px 15px 15px;
-  border: 1px solid #fff;
+  border: 1px solid var(--text);
   left: 50%;
   margin-left: -13px;
   z-index: 9990;
@@ -491,7 +491,7 @@ textarea {
   width: 2px;
   height: 5px;
   border-radius: 4px;
-  background: #fff;
+  background: var(--text);
   border: 1px solid transparent;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
