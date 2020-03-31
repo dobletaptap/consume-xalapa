@@ -46,8 +46,8 @@ burgerButton.addEventListener('click', () => {
 lightButton.addEventListener('click', () => {
     // if theme is already dark, change to light colors
     if (theme === 'dark') {
-        document.documentElement.style.setProperty('--body', '#F2F7F2')
-        document.documentElement.style.setProperty('--element', '#d7dbd7')
+        document.documentElement.style.setProperty('--body', '#E5E5E5')
+        document.documentElement.style.setProperty('--element', '#F2F7F2')
         document.documentElement.style.setProperty('--primary', '#C05746')
         document.documentElement.style.setProperty('--accent', '#43AA8B')
         document.documentElement.style.setProperty('--text', '#2F323A')
