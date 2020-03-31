@@ -1,0 +1,11 @@
+.c-logo {
+    color: var(--text);
+    font-family: var(--logo-font);
+    font-size: 1.6em;
+    font-weight: bold;
+
+    &__highlight {
+        font-family: var(--logo-font);
+        color: var(--primary);
+    }
+}
