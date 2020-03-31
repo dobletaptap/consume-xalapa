@@ -12,12 +12,24 @@
     &__list {
         list-style: none;
         display: flex;
+        align-items: center;
         padding:0;
     }
 
     &__list-item {
         margin-left: 20px;
         font-weight: bold;
+
+        &--button {
+            background: var(--primary);
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
     }
 
     &__link {
