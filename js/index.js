@@ -2,7 +2,7 @@ const burgerButton = document.querySelector('#burger-button')
 const menu = document.querySelector('#menu')
 const links = document.querySelectorAll('.c-header__list-item')
 const lightButton = document.querySelector('#light-button')
-let theme = 'dark'
+let theme = 'light'
 
 const toggleTheme= mediaQuery => {
     if (mediaQuery.matches) { // If media query matches

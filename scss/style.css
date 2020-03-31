@@ -1,9 +1,10 @@
 :root {
-  --body: #2F323A;
-  --element:#434853;
-  --primary: #43AA8B;
-  --accent: #C05746;
-  --text:#F2F7F2;
+  --body: #E5E5E5;
+  --element:#F2F7F2;
+  --primary: #C05746;
+  --accent: #43AA8B;
+  --text:#2F323A;
+  --text-cta: #F2F7F2;
 }
 
 * {
@@ -593,6 +594,8 @@ textarea {
   border-radius: 10px;
   overflow: hidden;
   font-size: 16px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .c-biz__container {
@@ -697,6 +700,7 @@ textarea {
 .c-biz__cta {
   text-transform: uppercase;
   background: var(--primary);
+  color: var(--text-cta);
   padding: 12px 24px;
   border-radius: 5px;
   font-size: 1.5em;
@@ -766,6 +770,8 @@ textarea {
   display: flex;
   border-radius: 5px;
   overflow: hidden;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .c-promo__image {
@@ -910,6 +916,8 @@ textarea {
   border-radius: 5px;
   max-width: 70%;
   margin: 0 auto;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .c-form__title {
@@ -937,7 +945,7 @@ textarea {
   font-family: "Open Sans", sans-serif;
   font-size: 1.2em;
   border: none;
-  background: #fcfcfc;
+  background: var(--body);
   padding: 5px;
   border-radius: 5px;
   outline: none;
@@ -967,7 +975,7 @@ textarea {
           box-sizing: initial;
   margin-top: 20px;
   font-family: "Open Sans", sans-serif;
-  color: var(--text);
+  color: var(--text-cta);
   background: var(--primary);
   border: none;
   letter-spacing: 3px;

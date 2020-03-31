@@ -4,6 +4,7 @@
     border-radius: 5px;
     max-width: 70%;
     margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
     &__title {
         font-size: 3.5em;
@@ -30,7 +31,7 @@
         font-family: $font;
         font-size: 1.2em;
         border: none;
-        background: darken(#fff, 1%);
+        background: var(--body);
         padding: 5px;
         border-radius: 5px;
         outline: none;
@@ -55,7 +56,7 @@
         box-sizing: initial;
         margin-top: 20px;
         font-family: $font;
-        color: var(--text);
+        color: var(--text-cta);
         background: var(--primary);
         border: none;
         letter-spacing: 3px;
