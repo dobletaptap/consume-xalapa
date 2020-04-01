@@ -759,10 +759,17 @@ textarea {
   margin-right: 5px;
 }
 
+@media screen and (max-width: 768px) {
+  .c-biz__container {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media screen and (max-width: 540px) {
   .c-biz__container {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
     gap: 30px;
   }
 }
